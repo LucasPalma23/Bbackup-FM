@@ -1,61 +1,15 @@
-import { useState } from 'react'
-import Sites from '../../components/Sites'
-import AOS from 'aos'
-import 'aos/dist/aos.css';
+import Header from '../../components/Header'
 
-import imgLogo from '../../assets/logo.svg'
-import imgPolygon from '../../assets/polygon-img.svg'
-import imgSite1 from '../../assets/site1.svg'
-import imgLogoResponsive from '../../assets/logo-responsive.svg'
 import imgSectionServices from '../../assets/section-services-img.svg'
 import imgSectiomMarketing from '../../assets/section-marketing-img.svg'
 
-import './styles.scss'
+import './styles-home.scss'
 
 export default function Home() {
-  AOS.init();
-
-  const [active, setActive] = useState('nav-list')
-  const navToggle = () => {
-    active === 'nav-list'
-      ? setActive('nav-list nav-list-active')
-      : setActive('nav-list')
-  }
 
   return (
     <>
-      <header>
-        <img src={imgPolygon} alt="polígono" className="polygon-header" />
-        <div className="img-responsive">
-          <img
-            src={imgLogoResponsive}
-            alt="Logo da empra"
-            className="logo-img-responsive"
-          />
-        </div>
-        <img src={imgLogo} alt="Logo da empresa" className="logo-img" />
-        <nav>
-          <div onClick={navToggle} className="mobile-menu">
-            <div className="line1"></div>
-            <div className="line1"></div>
-            <div className="line1"></div>
-          </div>
-          <ul className={active}>
-            <div>
-              <li>Início</li>
-            </div>
-            <div>
-              <li>Catálogo</li>
-            </div>
-            <div>
-              <li>Sobre</li>
-            </div>
-            <div>
-              <li>Contato</li>
-            </div>
-          </ul>
-        </nav>
-      </header>
+      <Header />
       <div className="section-header">
         <div className="title-header">
           <h1>O que eu faço para passar mais confiança ao meu cliente?</h1>
@@ -95,13 +49,13 @@ export default function Home() {
       <div className="section-marketing">
         <div className="section-marketing_img"><img src={imgSectiomMarketing} alt="" /></div>
         <div className="section-marketing_text">
-          <h1>Marketing</h1>
+          <h1>MARKETING</h1>
           <p>
             QUER SABER MAIS SOBRE COMO <br />
             TRAZER CREDIBILIDADE PARA <br />
             SEU NEGÓCIO ?
           </p>
-          <button>ENTRAR EM CONTATO</button>
+          <button className='btn btn-animation'><span className='btn-txt'>ENTRAR EM CONTATO</span></button>
         </div>
       </div>
     </>

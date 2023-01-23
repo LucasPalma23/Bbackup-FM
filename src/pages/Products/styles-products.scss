@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  margin-top: 125px;
+  align-items: center;
+
+  .image-section-header {
+    width: 1339.99px;
+    height: 367.7px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  h1 {
+    position: absolute;
+    color: #F0C146;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 46px;
+    letter-spacing: 0.05em;
+  }
+}
+
+.container-products-site_title {
+  margin-top: 169px;
+
+  h1 {
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 82px;
+    color: #FFFFFF;
+  }
+}
+
+.container-products-sites {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .products-sites {
+    margin-top: 107px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1800px;
+    justify-content: space-around;
+
+    .container_site {
+      margin-bottom: 60px;
+    }
+  }
+}
+.container-products-post_title {
+  margin-top: 57px;
+
+  h1 {
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 82px;
+    color: #FFFFFF;
+  }
+}
+
+.container-products-posts {
+  margin-top: 133px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .products-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1500px;
+
+    .container_post {
+      margin-bottom: 88px;
+    }
+  }
+}

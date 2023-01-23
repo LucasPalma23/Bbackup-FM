@@ -1,9 +1,16 @@
+import { Routes, Route} from 'react-router-dom'
+
 import Home from "./pages/Home";
+import Products from "./pages/Products";
+
 
 export default function App() {
   return (
     <>
-      <Home />
+      <Routes>
+        <Route path='/' element={<Home />}></Route>
+        <Route path='/catalogo' element={<Products />}></Route>
+      </Routes>
     </>
   )
 }

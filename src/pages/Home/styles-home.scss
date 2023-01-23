@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+.section-header {
+  height: 892px;
+  width: 100vw;
+  background-image: url("../../assets/section-main.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .title-header {
+    display: flex;
+    justify-content: center;
+
+    h1 {
+      margin-top: 516px;
+      font-family: 'Inter';
+      font-weight: 600;
+      font-size: 40px;
+      text-align: center;
+      color: #fff;
+    }
+  }
+
+  .button-header {
+    display: flex;
+    justify-content: center;
+
+    button {
+      width: 261px;
+      height: 70px;
+      left: 795px;
+      margin-top: 91px;
+      background: #f9c847f2;
+      border-radius: 50px;
+      border-style: none;
+      font-family: 'Inter';
+      font-weight: 600;
+      font-size: 27px;
+      color: black;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: black;
+      color: #f9c847f2;
+      border: solid 2px #f9c847f2;
+    }
+  }
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  height: 330vh;
+  background-color: black;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+
+  .section-services {
+    display: flex;
+    width: 1900px;
+    min-height: 600px;
+  
+    .section-services_text {
+      margin-top: 196px;
+      margin-left: 290px;
+      white-space: normal;
+  
+      h1 {
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 45px;
+        color: #fff;
+      }
+  
+      h2 {
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 35px;
+        color: #F0C146;
+        margin-top: 68px;
+      }
+  
+      p {
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 25px;
+        color: #FFFFFF;
+        margin-top: 26px;
+      }
+    }
+  }
+}
+
+.section-services_img {
+  position: absolute;
+  margin-top: 101px;
+  left: 1592px;
+}
+
+.section-marketing {
+  display: flex;
+  background-color: black;
+
+  .section-marketing_img {
+    margin-top: 216px;
+
+    img {
+      max-width: 75%;
+      margin-left: 90px;
+    }
+  }
+
+  .section-marketing_text {
+    margin-top: 200px;
+    width: 961.6px;
+    text-align: center;
+    height: 100%;
+
+
+    h1 {
+      margin-top: 200px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 70px;
+      color: #F0C146;
+    }
+
+    p {
+      margin-top: 60px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 50px;
+      color: #FFFFFF;
+    }
+
+    .btn {
+      position: relative;
+      margin-top: 119px;
+      background-color: black;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 30px;
+      color: #F0C146;
+      border: solid 3px #F0C146;
+      cursor: pointer;
+      padding: 8px 50px;
+
+      &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background-color: #F0C146;
+        transition: all .8s ease;
+      }
+
+      & .btn-txt {
+        mix-blend-mode: difference;
+      }
+    }
+    .btn-animation {
+      &:before {
+        width: 0;
+        height: 100%;
+      }
+
+      &:hover {
+        &:before {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .nav-list {
+    display: flex;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.88);
+    top: 13vh;
+    height: 892px;
+    min-width: 280px;
+    max-width: 460px;
+    right: 0;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(100%);
+    transition: 0.2s;
+  }
+
+  .mobile-menu {
+    display: block;
+    cursor: pointer;
+    margin: 30px;
+    
+    div {
+      width: 32px;
+      height: 2px;
+      background-color: #FFC427;
+      margin: 8px;
+    }
+  }
+
+  .nav-list-active {
+    transform: translateX(0);
+    transition: 0.2s;
+  }
+
+  .section-marketing {
+    flex-wrap: wrap;
+  }
+
+  .section-services_text {
+    margin: 0;
+  }
+}
+
+@media (max-width: 1000px) {
+  .polygon-header {
+    display: none;
+  }
+
+  .logo-img {
+    display: none;
+  }
+
+  .img-responsive {
+    display: flex;
+    height: 13vh;
+    width: 141px;
+    align-items: center;
+    margin-left: 50px;
+
+    .logo-img-responsive {
+      display: block;
+    }
+  }
+}

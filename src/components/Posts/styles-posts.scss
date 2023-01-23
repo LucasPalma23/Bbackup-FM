@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-posts {
+  display: flex;
+  width: 450px;
+  height: 450px;
+  border: 3px solid #F0C146;
+  border-radius: 8px;
+  justify-content: center;
+  cursor: pointer;
+
+  .container-posts_image {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 397px;
+      height: 406px;
+    }
+  }
+}
