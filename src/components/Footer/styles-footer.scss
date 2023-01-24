@@ -4,3 +4,126 @@
   box-sizing: border-box;
 }
 
+.container-footer {
+  margin-top: 157px;
+  background-color: black;
+  width: 100%;
+
+  .line-footer-top {
+    width: 100%;
+    border: 3px solid #F0C146;
+    height: 0px;
+  }
+
+  .container-footer-primary {
+    display: flex;
+    flex-wrap: wrap;
+
+    .img-footer-primary {
+      margin-top: 241px;
+      margin-left: 199px;
+      max-width: 294px;
+      height: 143px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .footer-address {
+      margin-top: 122px;
+      margin-left: 220px;
+      width: 500px;
+
+      h3 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        color: #F0C146;
+        margin-bottom: 57px;
+      }
+
+      p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        color: #FFFFFF;
+        margin-bottom: 52px;
+      }
+    }
+
+    .footer-signin {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 100px;
+      width: 540px;
+
+      h2 {
+        margin-top: 64px;
+        margin-bottom: 45px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 33px;
+        letter-spacing: 0.025em;
+        color: #F0C146;
+        text-align: center;
+      }
+
+      input {
+        width: 500px;
+        height: 70px;
+        background: #1E1E1E;
+        border: 2px solid #F0C146;
+        border-radius: 10px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 33px;
+        color: rgba(255, 255, 255, 0.4);
+        margin-bottom: 39px;
+        padding: 26px;
+      }
+
+      button {
+        width: 500px;
+        height: 70px;
+        background: #F0C146;
+        border-radius: 10px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 27px;
+        letter-spacing: 0.025em;
+        color: #000000;
+        transition: .2s;
+        cursor: pointer;
+
+        &:hover {
+          border: 3px solid #F0C146;
+          background-color: black;
+          color: #F0C146;
+        }
+      }
+    }
+  }
+
+  .line-footer-bottom {
+    margin-top: 71px;
+    width: 100%;
+    border: 3px solid #F0C146;
+    height: 0px;
+  }
+
+  .footer_media-social {
+    display: flex;
+    flex-wrap: wrap;
+    height: 182px;
+    width: 100%;
+    justify-content: center;
+  }
+}

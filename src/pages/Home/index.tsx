@@ -4,6 +4,7 @@ import imgSectionServices from '../../assets/section-services-img.svg'
 import imgSectiomMarketing from '../../assets/section-marketing-img.svg'
 
 import './styles-home.scss'
+import Footer from '../../components/Footer'
 
 export default function Home() {
 
@@ -58,6 +59,7 @@ export default function Home() {
           <button className='btn btn-animation'><span className='btn-txt'>ENTRAR EM CONTATO</span></button>
         </div>
       </div>
+      <Footer />
     </>
   )
 }
