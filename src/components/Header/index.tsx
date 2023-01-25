@@ -44,9 +44,11 @@ export default function Header() {
                 <li>Catálogo</li>
               </Link>
             </div>
-            <div>
-              <li>Sobre</li>
-            </div>
+            <Link to={"/sobre"} style={{textDecoration: "none"}}>
+              <div>
+                <li>Sobre</li>
+              </div>
+            </Link>
             <div>
               <li>Contato</li>
             </div>

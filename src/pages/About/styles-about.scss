@@ -1,0 +1,185 @@
+.about_container {
+
+  .about_section-header {
+    position: relative;
+    background-image: url("../../assets/about-header_img.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+    min-height: 600px;
+
+    .about_section-header_title {
+      position: absolute;
+      margin-top: 215px;
+      margin-left: 277px;
+      text-align: left;
+      white-space: normal;
+
+      h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 70px;
+        color: #F0C146;
+        text-decoration: underline;
+        text-underline-offset: 25px;
+      }
+
+      h2 {
+        margin-top: 54px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 45px;
+        color: #FFFFFF;
+      }
+
+      p {
+        margin-top: 48px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        color: #FFFFFF;
+
+      }
+    }
+  }
+
+  .about_section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 273px;
+
+    .about_section-content_mission {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1600px;
+
+      .about_section-content_mission_img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .about_section-content_mission_text {
+        margin-left: 236px;
+
+        h1 {
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 70px;
+          color: #F0C146;
+          text-align: left;
+          text-decoration: underline;
+          text-underline-offset: 25px;
+        }
+
+        p {
+          margin-top: 55px;
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 35px;
+          color: #FFFFFF;
+          text-align: left;
+        }
+      }
+    }
+
+    .about_section-content_vision {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1600px;
+      margin-top: 291px;
+
+      .about_section-content_vision_img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .about_section-content_vision_text {
+        margin-right: 236px;
+
+        h1 {
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 70px;
+          color: #F0C146;
+          text-align: right;
+          text-decoration: underline;
+          text-underline-offset: 25px;
+        }
+
+        p {
+          margin-top: 55px;
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 35px;
+          color: #FFFFFF;
+          text-align: right;
+        }
+      }
+    }
+    .about_section-content_value {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1600px;
+      margin-top: 291px;
+
+      .about_section-content_value_img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .about_section-content_value_text {
+        margin-left: 236px;
+
+        h1 {
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 70px;
+          color: #F0C146;
+          text-align: left;
+          text-decoration: underline;
+          text-underline-offset: 25px;
+        }
+
+        ul {
+          margin-top: 55px;
+          margin-left: 32px;
+
+          li {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 35px;
+            color: #FFFFFF;
+          }
+        }
+      }
+    }
+  }
+}
