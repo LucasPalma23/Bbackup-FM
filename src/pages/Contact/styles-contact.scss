@@ -50,4 +50,225 @@
       }
     }
   }
+
+  .contact_contacts {
+    margin-top: 148px;
+    display: flex;
+    justify-content: center;
+
+    .contact_contacts_container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 1696px;
+      background: #141414;
+      border: 1px solid #EDBE43;
+      border-radius: 15px;
+      height: 500px;
+
+      .contact_contacts_container_link-instagram {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding-right: 125px;
+        height: 255px;
+        justify-items: center;
+        cursor: pointer;
+
+        span {
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 30px;
+          color: #FFFFFF;
+          text-align: center;
+        }
+
+        img {
+          margin-top: 42px;
+          width: 136px;
+          height: 134.95px;
+          object-fit: contain;
+        }
+      }
+
+      .contact_contacts_container_link-facebook {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding: 0 125px;
+        height: 255px;
+        border-right: 1px solid #EDBE43;
+        border-left: 1px solid #EDBE43;
+        justify-items: center;
+        cursor: pointer;
+
+        span {
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 30px;
+          color: #FFFFFF;
+          text-align: center;
+        }
+
+        img {
+          margin-top: 42px;
+          width: 136px;
+          height: 134.95px;
+          object-fit: contain;
+        }
+      }
+
+      .contact_contacts_container_link-whatsapp {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding: 0 125px;
+        height: 255px;
+        border-right: 1px solid #EDBE43;
+        justify-items: center;
+        cursor: pointer;
+
+        span {
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 30px;
+          color: #FFFFFF;
+          text-align: center;
+        }
+
+        img {
+          margin-top: 42px;
+          width: 136px;
+          height: 134.95px;
+          object-fit: contain;
+        }
+      }
+
+      .contact_contacts_container_link-computer {
+        margin-left: 51px;
+      }
+    }
+  }
+
+  .contact_text-register {
+    margin-top: 150px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    color: #F0C146;
+  }
+
+  .contact_register-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 121px;
+    justify-content: space-between;
+
+    .contact_register-container_input {
+      display: flex;
+      flex-direction: column;
+      margin-left: 225px;
+      justify-content: center;
+
+      input {
+        height: 65px;
+        width: 750px;
+        padding: 14px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        color: #FFFFFF;
+        background-color: black;
+        border-radius: 0;
+        border-bottom: 2px solid rgba(240, 193, 70, 0.6);
+        border-right: 0;
+        border-top: 0;
+        border-left: 0;
+        margin-bottom: 77px;
+        outline: 0;
+      }
+    }
+
+    .contact_register-container_img {
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .contact_text-work {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-decoration: underline #EDBE43;
+    text-underline-offset: 25px;
+    text-align: center;
+  }
+
+  .contact_work-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 170px;
+    margin-bottom: 220px;
+
+    .contact_work-container_curriculum {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 608px;
+      height: 470px;
+      background: #0A0A0A;
+      border: 1px solid #F0C146;
+      cursor: pointer;
+
+      span {
+        margin-top: 45px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        color: #F0C146;
+        text-align: center;
+      }
+    }
+
+    .contact_work-container_input {
+      display: flex;
+      flex-direction: column;
+      margin-left: 225px;
+      justify-content: center;
+
+      input {
+        height: 65px;
+        width: 750px;
+        padding: 14px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        color: #FFFFFF;
+        background-color: black;
+        border-radius: 0;
+        border-bottom: 2px solid rgba(240, 193, 70, 0.6);
+        border-right: 0;
+        border-top: 0;
+        border-left: 0;
+        margin-bottom: 77px;
+        outline: 0;
+      }
+    }
+  }
 }
