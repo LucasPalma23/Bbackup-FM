@@ -11,8 +11,10 @@ export default function Sites(props: siteProps) {
       <div className="container-sites_image">
         <div className="image">{props.image}</div>
       </div>
-      <h1>{props.name}</h1>
-      <button>Ver modelo</button>
+      <div className="container-sites_title">
+        <h1>{props.name}</h1>
+        <button>Ver modelo</button>
+      </div>
     </div>
   )
 }

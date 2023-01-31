@@ -15,17 +15,14 @@ export default function Footer() {
           </div>
           <div className="footer-address">
             <h3>Fale conosco:</h3>
-            <p>R. XXXXX XXXXX, XXX-XXX</p>
-            <p>Piracicaba -SP</p>
-            <p>contato@xxxxx.com.br</p>
-            <p>(19) xxxxx-xxxx</p>
+            <p>Piracicaba - SP</p>
+            <p>futuromilionario08@gmail.com</p>
+            <p>(19) 99464-8146</p>
           </div>
           <div className="footer-signin">
-            <h2>CADASTRE-SE</h2>
-            <input type="text" name="" id="" placeholder='NOME COMPLETO' />
-            <input type="email" name="" id="" placeholder='E-MAIL' />
-            <input type="password" name="" id="" placeholder='SENHA' />
-            <button>FINALIZAR CADASTRO</button>
+            <h2>QUER FICAR POR DENTRO DAS NOVIDADES?</h2>
+            <input type="email" name="" id="" placeholder="E-MAIL" />
+            <button>CADASTRAR</button>
           </div>
         </div>
         <div className="line-footer-bottom"></div>

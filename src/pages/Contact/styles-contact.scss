@@ -2,6 +2,7 @@
   .contact_section-header {
     margin-top: 94px;
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: center;
 
@@ -55,6 +56,7 @@
     margin-top: 148px;
     display: flex;
     justify-content: center;
+    min-height: 600px;
 
     .contact_contacts_container {
       display: flex;
@@ -155,6 +157,7 @@
   }
 
   .contact_text-register {
+    white-space: normal;
     margin-top: 150px;
     text-align: center;
     font-family: 'Poppins';
@@ -187,7 +190,7 @@
         color: #FFFFFF;
         background-color: black;
         border-radius: 0;
-        border-bottom: 2px solid rgba(240, 193, 70, 0.6);
+        border-bottom: 2px solid #EDBE43;
         border-right: 0;
         border-top: 0;
         border-left: 0;
@@ -262,13 +265,19 @@
         color: #FFFFFF;
         background-color: black;
         border-radius: 0;
-        border-bottom: 2px solid rgba(240, 193, 70, 0.6);
+        border-bottom: 2px solid #EDBE43;
         border-right: 0;
         border-top: 0;
         border-left: 0;
         margin-bottom: 77px;
         outline: 0;
       }
+    }
+  }
+
+  @media (max-width: 1642px) {
+    .contact_register-container_img {
+      display: none;
     }
   }
 }

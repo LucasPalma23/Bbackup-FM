@@ -38,32 +38,38 @@
     }
   }
 
-  h1 {
-    margin-top: 60px;
-    font-family: 'Inter';
-    font-weight: 600;
-    font-size: 20px;
-    color: #FFFFFF;
-    text-align: center;
-  }
-
-  button {
-    margin-top: 69px;
-    width: 205px;
-    height: 54px;
-    background: #F0C146;
-    border-radius: 20px;
-    font-family: 'Inter';
-    font-weight: 600;
-    font-size: 27px;
-    color: #060606;
-    transition: .2s;
-    cursor: pointer;
-
-    &:hover {
-      border: 2px solid #F0C146;
-      background-color: black;
-      color: #F0C146;
+  .container-sites_title {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    h1 {
+      margin-top: 60px;
+      font-family: 'Inter';
+      font-weight: 600;
+      font-size: 20px;
+      color: #FFFFFF;
+      text-align: center;
+    }
+  
+    button {
+      position: absolute;
+      width: 205px;
+      height: 54px;
+      margin-top: 177px;
+      background: #F0C146;
+      border-radius: 20px;
+      font-family: 'Inter';
+      font-weight: 600;
+      font-size: 27px;
+      color: #060606;
+      transition: .2s;
+      cursor: pointer;
+  
+      &:hover {
+        border: 2px solid #F0C146;
+        background-color: black;
+        color: #F0C146;
+      }
     }
   }
 }

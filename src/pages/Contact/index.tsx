@@ -37,20 +37,24 @@ export default function Contact() {
 
         <div className="contact_contacts">
           <div className="contact_contacts_container">
-            <div className="contact_contacts_container_link-instagram">
-              <span>Instagram</span>
-              <img src={contact_imgIconInstagram} alt="" />
-            </div>
+            <a href="https://instagram.com/futuromilionarioficial" style={{textDecoration:"none"}} target="_blank">
+              <div className="contact_contacts_container_link-instagram">
+                <span>Instagram</span>
+                <img src={contact_imgIconInstagram} alt="" />
+              </div>
+            </a>
 
             <div className="contact_contacts_container_link-facebook">
               <span>Facebook</span>
               <img src={contact_imgIconFacebook} alt="" />
             </div>
 
-            <div className="contact_contacts_container_link-whatsapp">
-              <span>Whatsapp</span>
-              <img src={contact_imgIconWhatsapp} alt="" />
-            </div>
+            <a href="https://wa.me/message/UDX7KT5L46TPF1" style={{textDecoration: "none"} } target="_blank">
+              <div className="contact_contacts_container_link-whatsapp">
+                <span>Whatsapp</span>
+                <img src={contact_imgIconWhatsapp} alt="" />
+              </div>
+            </a>
 
             <div className="contact_contacts_container_link-computer">
               <img src={imgSectionComputer} alt="" />
